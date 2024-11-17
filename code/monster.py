@@ -1,8 +1,7 @@
 import pygame
 from entity import Entity
 from pygame.math import Vector2 as vector
-# exercise:
-# make the enemies blink when they are invulnerable
+
 
 class Monster:
 	def get_player_distance_direction(self):
